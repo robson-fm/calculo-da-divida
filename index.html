@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculo da Dívida</title>
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<body>
+  <div class="container">
+    <h1>Calculo da Dívida</h1>
+
+    <p>
+      Informe o valor devido: R$<input type="number" name="valor_devido" id="valor_devida" placeholder="Ex.:1000">
+    </p>
+    <p>
+      Informe quantos dias de atraso: <input type="number" name="dias_atraso" id="dias_atraso" placeholder="Ex.:15">
+    </p>
+    <button class="botao" onclick="calc()">Calcular</button>
+    <h3 id="origem"> </h3>
+    <h3 id="dias"> </h3>
+    <h3 id="porcen"> </h3>
+    <h3 id="resultado"> </h3>
+    <footer>
+
+      <p><small>***Dívidas com mais de 15 dias de atraso tem uma taxa de 10% de juros aplicada sobre o valor da dívida.Dívidas entre 5 e 15 dias de atraso tem uma taxa de 5% de juros aplicada sobre o valor da dívida.Dívidas com menos de 5 dias de atraso tem uma taxa de 3% de juros aplicada sobre o valor da dívida</small></p>
+
+    </footer>
+  </div>
+</body>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
